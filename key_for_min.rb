@@ -8,7 +8,8 @@ def key_for_min_value(name_hash)
     key = k if key == nil
     value = v if value == nil
       if v < value 
-        
+        value = v
+        key = k
 end
 end
 name
